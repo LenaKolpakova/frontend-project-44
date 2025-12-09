@@ -1,8 +1,8 @@
-echo "node_modules/
-.DS_Store
-.env
-*.log
-coverage/
-dist/
-.vscode/
-.idea/" > .gitignore
+install:
+	npm ci
+
+brain-games:
+	node bin/brain-games.js
+
+publish:
+	npm publish --dry-run

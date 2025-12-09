@@ -1,19 +1,16 @@
 {
-  "name": "frontend-project-44",
+  "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/LenaKolpakova/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/LenaKolpakova/frontend-project-44/actions)",
+  "type": "module",
+  "description": "",
   "main": "index.js",
   "scripts": {
-  "brain-games": "node bin/brain-games.js"
-},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LenaKolpakova/frontend-project-44.git"
+    "brain-games": "node bin/brain-games.js"
   },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LenaKolpakova/frontend-project-44/issues"
-  },
-  "homepage": "https://github.com/LenaKolpakova/frontend-project-44#readme"
+  "license": "ISC"
 }
